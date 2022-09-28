@@ -39,7 +39,7 @@ if ($result->num_rows > 0) {
 ?>
   <tr>
     <td><?=$row["course_id"]?></td>
-    <td><a href="prefix-section.php?id=<?=$row["course_id"]?><?=$row["prefix"]?></a></td>
+    <td><a href="prefix-section.php?id=<?=$row["prefix"]?></a></td>
     <td><?=$row["number"]?></td>
     <td><?=$row["description"]?></td>
     <td>
