@@ -17,19 +17,19 @@
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="courses.php">Go To Courses Page</a>
+          <a class="nav-link" href="courses.php">Courses Page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="instructors.php">Go To Instructors Page</a>
+          <a class="nav-link" href="instructors.php">Instructors Page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="instructor-cards.php">Go To Instructor Cards Page</a>
+          <a class="nav-link" href="instructor-cards.php">Instructor Cards Page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sections.php">Go To Sections Page</a>
+          <a class="nav-link" href="sections.php">Sections Page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="page5.html">Go To Page 5</a>
+          <a class="nav-link" href="dogs.php">Dogs Page</a>
         </li>
        
         <li class="nav-item">
