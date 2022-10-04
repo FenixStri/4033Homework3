@@ -31,7 +31,9 @@
         <li class="nav-item">
           <a class="nav-link" href="dogs.php">Dogs Page</a>
         </li>
-       
+        <li class="nav-item">
+          <a class="nav-link" href="cats.php">Cats Page</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>
         </li>
