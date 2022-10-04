@@ -10,10 +10,8 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>Course ID</th>
-      <th>Prefix</th>
-      <th>Number</th>
-      <th>Description</th>
+      <th>ID</th>
+      <th>Name</th>
     </tr>
   </thead>
   <tbody>
@@ -30,7 +28,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT course_id, prefix, number, description from course";
+$sql = "SELECT instructor_id, instructor_name from instructor";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -38,18 +36,8 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 ?>
   <tr>
-    <td><?=$row["course_id"]?></td>
-    <td><?=$row["prefix"]?></a></td>
-    <td><?=$row["number"]?></td>
-    <td><?=$row["description"]?></td>
-    <td>
-      <form method ="post" action = "course-section.php">
-        <input type "hidden" name = "id" value = "<?=$row["course_id"]?>" />
-        <input type ="submit" value = "Sections" />
-      </form>
-      
-        </td>
-      
+    <td><?=$row["instructor_id"]?></td>
+    <td><?=$row["instructor_name"]?></td>
   </tr>
 <?php
   }
